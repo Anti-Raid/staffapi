@@ -1,6 +1,5 @@
 import os, subprocess, pathlib, signal
 
-# PORT=5000 ACCESS_KEY_ID=I7rgaijaC6-mUvfUwp-M-F2NmSH4Z5nAATxti7u2FrQ SECRET_ACCESS_KEY=jwiE7-VCgs4qBNndAaIDu9BXlUQP04HnyUsxtHOAjgs ENDPOINT=objectstore.purrquinox.com TIMEOUT=1 bin/s3manager -v
 def start_s3_proc():
     # Check that s3/bin/s3manager exists
     print("Checking for s3/bin/s3manager")
