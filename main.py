@@ -4,7 +4,7 @@ from s3 import start_s3_proc
 import dotenv
 import threading
 
-dotenv.load_dotenv()
+dotenv.load_dotenv(override=True)
 
 app = FastAPI()
 
