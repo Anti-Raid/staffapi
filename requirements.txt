@@ -1,0 +1,5 @@
+fastapi[standard]
+flask
+boto3
+humanize
+python-dotenv
