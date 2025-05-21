@@ -3,3 +3,4 @@ flask
 boto3
 humanize
 python-dotenv
+boto3-stubs[essential]
